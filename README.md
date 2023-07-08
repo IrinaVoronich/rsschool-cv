@@ -1,3 +1,3 @@
 # rsschool-cv
 https://IrinaVoronich.github.io/rsschool-cv/cv
-https://IrinaVoronich.github.io/rsschool-cv/rsschool-cv-html/index
+https://IrinaVoronich.github.io/rsschool-cv/index
