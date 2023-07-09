@@ -1,13 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <div class="container"></div>
+    <header>
+        <section class="section" id="profile">
+            <h1>Irina Voronich</h1>
+        </section>
+        <p>Junior Frontend Developer</p>
+        <img src="image/images.jpg" alt="avatar">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#Contactinformation" class="nav-link">Contact information</a></li>
+                <li class="nav-item"><a href="#Brieflyaboutmyself" class="nav-link">Briefly about myself</a></li>
+                <li class="nav-item"><a href="#SkillsandProficiency" class="nav-link">Skills and Proficiency</a></li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section" id="contscts">
+            <div id="Contactinformation">
+                <h2>Contact information</h2>
+            </div>
+        </section>
+        <p>Irina Voronich</p>
+        <ul>
+            <li>Phone: +375292686801</li>
+            <li>E-mail: irinavoronich95@gmail.com</li>
+            <li>Telegram: @Irina Voronich</li>
+        </ul>
+        <section class="section" id="briefly">
+            <div id="Brieflyaboutmyself">
+                <h2>Briefly about myself</h2>
+            </div>
+        </section>
+        <p>I am 28 years old and am constantly striving to learn and develop my skills. I can do what interests me for a
+            very long time. I am sociable, diligent and purposeful.
+            Web development interested me because there is an opportunity for self-development and self-realization.
+            This is
+            a profession where you can and should constantly learn and develop skills.</p>
+        
+            <section class="section" id="skills">
+                <div id="SkillsandProficiency">
+                <h2>Skills and Proficiency:</h2>
+        </div>
+        </section>
+        <ul>
+            <li>HTML </li>
+            <li>CSS</li>
+            <li>Adobe Photoshop</li>
+        </ul>
+        <section class="section" id="code">
+            <h2 id="code-example"><strong>Code Example</strong></h2>
+        </section>
+        <p>
+            <strong>HTML task: Checkbox from code-basics:</strong>
+            Create a form with a data handler file located at /people. Inside the form, create 2 checkboxes. Bind them
+            by
+            nesting an &lt;<span>input</span>&gt; inside a &lt;<span>label</span>&gt; . Don't forget to add the name and
+            value attributes
+        </p>
+        <pre>
+            &lt;<span>form action="/people"</span>&gt;
+            &lt;<span>label</span>&gt;
+            &lt;<span>input type="checkbox" name="languages" value="HTML"</span>&gt;
+            Хочу изучать HTML
+            &lt;<span>/label</span>&gt;
+            &lt;<span>br</span>&gt;
+            &lt;<span> label</span>&gt;
+            &lt;<span>input type="checkbox" name="languages" value="CSS"</span>&gt;
+            Хочу изучать CSS
+            &lt;<span>/label</span>&gt;
+            &lt;<span>br</span>&gt;
+            &lt;<span> /label</span>&gt;
+            &lt;<span>/form</span>&gt;
+            </pre>
+        <section class="section" id="courses">
+            <h2>Courses:</h2>
+        </section>
+        <ul>
+            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+        </ul>
+        <section class="section" id="lang">
+            <h2>Languages:</h2>
+        </section>
+        <ul>
+            <li>English - Intermediate</li>
+            <li>Russian - Native</li>
+            <li>Belorussian-Intermediate</li>
+        </ul>
+    </main>
+
+    <footer>
+        <div class="body"></div>
+
+        <a href="https://github.com/IrinaVoronich">
+            <i class="git">GitHub: IrinaVoronich </i>
+        </a>
+
+        <span class="year-font">2023</span>
+
+            <img src="./image/rs_school_js.svg" alt="logo" width="150" height="150"> <a href="https://rs.school/js">
+                <i class="course"> RSSCHOOL</i></a>
+
+
+    </footer>
+
 </body>
+
 </html>
