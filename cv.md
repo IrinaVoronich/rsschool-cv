@@ -1,5 +1,6 @@
 Contact information
 Irina Voronich
+Junior Frontend Developer
 Phone: +375292686801
  E-mail: irinavoronich95@gmail.com 
  Telegram: @Irina Voronich
